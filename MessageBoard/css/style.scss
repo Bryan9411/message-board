@@ -1,0 +1,206 @@
+@import 'grid';
+@import 'reset';
+
+header{
+    background-color: rgb(241, 202, 208);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.board{
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #e8e8e8;
+    .board__btn{
+        padding: 5px 15px;
+        border: 1px solid #c2dffb;
+        border-radius: 5px;
+        margin: 0 10px;
+        text-decoration: none;
+        color: #2b2d2e;
+        font-weight: bold;
+    }
+    .board__edit-btn{
+        padding: 5px 15px;
+        border: 1px solid #c2dffb;
+        border-radius: 5px;
+        margin: 0 10px;
+        text-decoration: none;
+        color: #2b2d2e;
+        font-weight: bold;
+    }
+    .board__title{
+        font-size: 35px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+    .board__new-comment-form{
+        .board__nickname{
+            display: flex;
+            margin: 15px auto;
+            span{
+              margin-right: 5px;  
+            }
+            input{
+                border: 1px solid #c2dffb;
+            }
+        }
+        textarea{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #c2dffb;
+            margin-bottom: 10px;
+        }
+        .board__submit-btn{
+            padding: 5px 15px;
+            border: 1px solid #c2dffb;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+    }
+    .board__hr{
+        margin: 20px auto;
+        height: 1px;
+        background-color: #e8e8e8;
+        max-width: 95%;
+    }
+    .board__data{
+        .card{
+            display: flex;
+            justify-content: space-around;
+            margin: 40px 0;
+            .card__member-face{
+                background-color: #c2dffb;
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                img{
+                    width: 100%;
+                }
+            }
+            .card__info{
+                display: flex;
+                flex-direction: column;
+                .card__info-message{
+                    display: flex;
+                    width: 100%;
+                    .card__title{
+                        color: #3797f1;
+                        font-weight: bold;
+                        margin-right: 10px;
+                    }
+                    .card__date{
+                        font-size: 16px;
+                        letter-spacing: 0.1em;
+                    }
+                }
+                .card__content{
+                    width: 400px;
+                    word-break: break-word;
+                    white-space: pre-line;
+                    margin-top: 20px;
+                }
+            }
+            .card__features{
+                display: flex;
+                .card__edit{
+                    margin-right: 10px;
+                    a{
+                        display: block;
+                        text-decoration: none;
+                        color: brown;
+                    }
+                }
+                .card__delete{
+                    a{
+                        display: block;
+                        text-decoration: none;
+                        color: brown;
+                    }
+                }
+            }
+        }
+    }
+    .board__page{
+        text-align: center;
+        span{
+            letter-spacing: 0.2em;
+        }
+        .board__page-info{
+            margin:20px 0;
+            a{
+                display: inline-block;
+                margin-right: 10px;
+                text-decoration: none;
+                color: rgb(20, 46, 129);
+            }
+        }
+    }
+    .backstage__table{
+        width:100%;
+        margin-top: 20px;
+        font-size:16px; 
+        text-align:center;
+        border:1px solid #000;
+        border-collapse:collapse;
+        th{
+            background-color: #009FCC;
+            padding:10px;
+            border:1px solid #000;
+            color:#fff;
+        }
+        td{
+            border:1px solid #000;
+            padding:5px;
+            form{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                .role__btn{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+.error{ 
+  color: rgb(211, 50, 50);
+  font-weight: bold;
+  font-size: 18px;
+}
+.login__n {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(189, 83, 34);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.login__nickname {
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(189, 83, 34);
+    margin-top: 10px;
+    margin-left: 10px;
+    letter-spacing: 0.1em;
+} 
+  
+  
+.hide {
+    display: none;
+}
+.show{
+    display: block;
+    margin-top: 20px;
+}
+.banned{
+    color: brown;
+    font-weight: bold;
+}

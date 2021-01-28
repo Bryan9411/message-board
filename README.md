@@ -1,4 +1,5 @@
 # PHP 留言板
+ 這是一個使用 PHP 製作的留言板，有編輯、留言與發文...等功能。
  
  留言板 [DEMO](http://mentor-program.co/mtr04group4/bryan9411/week11/hw1/index.php)
 

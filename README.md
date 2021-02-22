@@ -1,11 +1,11 @@
 # PHP 留言板
- 這是一個使用 PHP 製作的留言板，有編輯、留言與發文...等功能。
+ 使用 PHP 製作留言板，有編輯、留言與發文...等功能。
  
  留言板 [DEMO](http://mentor-program.co/mtr04group4/bryan9411/week11/hw1/index.php)
 
 ## 技術
 ### 使用者登入系統
-* 使用 Session 機制驗證使用者登入
+* Session 機制驗證使用者登入
 * 資料庫內的使用者密碼經過 `password_hash()` 機制加密後再存進資料庫。當使用者登入時，透過 `password_verify()` 來比對輸入的密碼跟資料庫內的密碼是否相符
 
 ### 權限管理
